@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto-Regular", Arial, serif !important;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("Roboto-Regular"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+#root {
+  width: 100vw;
+  height: auto;
+}
+
+:root {
+  --strip_bg: #11B980;
+  --header_bg: #E2E2E2;
+  --button_bg: #549DF2;
+  --card_bg: #F1F1F1;
+  --text_primary: #151515;
+  --text_link: #318FE7;
+  --text_desc: #1E1E1E;
+  --text_date: #4E4E4E;
+  --text_genres: #505050;
+  --text_accent: #989898;
+  --card_border: #C4C4C4;
+}
+
+html {
+  //font-size: 62.5%;
+}
+
+body {
+  //font-size: 1.6rem;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+}
